@@ -37,4 +37,4 @@
 To run the app, execute the following command:
 
 ```bash
-streamkit run app.py
+streamkit run _db.py
