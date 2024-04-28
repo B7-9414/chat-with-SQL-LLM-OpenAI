@@ -1,0 +1,40 @@
+# Chat-with-SQL
+
+## Installation
+
+1. Create a virtual environment:
+
+    ```bash
+    python3 -m venv myenv
+    ```
+
+2. Activate the virtual environment:
+
+    ```bash
+    source myenv/bin/activate
+    ```
+
+3. Install dependencies from the requirements.txt file:
+
+    ```bash
+    pip3 install -r requirements.txt
+    ```
+
+4. Set your OpenAI API key as an environment variable. Add the following line to your `.env` file (create one if it doesn't exist) and replace `YOUR_OPENAI_API_KEY` with your actual API key:
+
+    ```
+    OPENAI_API_KEY=YOUR_OPENAI_API_KEY
+    ```
+
+5. Set the path to your SQL database file as an environment variable. Add the following line to your `.env` file (create one if it doesn't exist) and replace `path/to/your/database.db` with the actual path to your database file:
+
+    ```
+    DATABASE_FILE=path/to/your/database.db
+    ```
+
+## Running the App
+
+To run the app, execute the following command:
+
+```bash
+streamkit run app.py
