@@ -13,8 +13,7 @@ A streamlined application that allows you to interact with your SQL database usi
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/chat-with-sql.git
-    cd chat-with-sql
+    git clone git@github.com:B7-9414/chat-with-SQL-LLM-OpenAI.git
     ```
 
 2. **Create a virtual environment:**
