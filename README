@@ -1,40 +1,54 @@
 # Chat-with-SQL
 
+A streamlined application that allows you to interact with your SQL database using natural language queries via OpenAI's API.
+
+## Prerequisites
+
+- Python 3.6+
+- OpenAI API Key
+- SQL Database file
+
 ## Installation
 
-1. Create a virtual environment:
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/yourusername/chat-with-sql.git
+    cd chat-with-sql
+    ```
+
+2. **Create a virtual environment:**
 
     ```bash
     python3 -m venv myenv
     ```
 
-2. Activate the virtual environment:
+3. **Activate the virtual environment:**
 
     ```bash
     source myenv/bin/activate
     ```
 
-3. Install dependencies from the requirements.txt file:
+4. **Install dependencies:**
 
     ```bash
-    pip3 install -r requirements.txt
+    pip install -r requirements.txt
     ```
 
-4. Set your OpenAI API key as an environment variable. Add the following line to your `.env` file (create one if it doesn't exist) and replace `YOUR_OPENAI_API_KEY` with your actual API key:
+## Configuration
 
-    ```
+1. **Set up your environment variables:**
+
+    Create a `.env` file in the root directory of your project and add the following lines, replacing placeholders with your actual values:
+
+    ```plaintext
     OPENAI_API_KEY=YOUR_OPENAI_API_KEY
-    ```
-
-5. Set the path to your SQL database file as an environment variable. Add the following line to your `.env` file (create one if it doesn't exist) and replace `path/to/your/database.db` with the actual path to your database file:
-
-    ```
     DATABASE_FILE=path/to/your/database.db
     ```
 
-## Running the App
+## Running the Application
 
-To run the app, execute the following command:
+To start the application, use the following command:
 
 ```bash
 streamkit run _db.py
